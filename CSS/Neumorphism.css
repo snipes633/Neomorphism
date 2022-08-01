@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #EADEDE; /* EADEDE */
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  height: 520px;
+  width: 350px;
+  display: block;
+  margin: 50px auto;
+  padding: 25px;
+  background-color: #EADEDE;
+  border-radius: 30px;
+  box-shadow: -6px -6px 10px #fff, 6px 6px 10px #777;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 100%;
+  margin: 25px 0 0 135px;
+  border: 2px solid #fff;
+}
+
+h1,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
+i {
+  position: absolute;
+}
+
+.fa-envelope {
+  left: 33px;
+  top: 37px;
+}
+
+.fa-lock {
+  left: 33px;
+  bottom: 16px;
+}
+
+input {
+  width: 80%;
+  height: 50px;
+  border-radius: 17px;
+  margin: 20px 0 0 7px;
+  padding-left: 55px;
+  text-decoration: none;
+  border: none;
+  box-shadow: inset 6px 6px 10px #999, inset -6px -6px 10px #fff;
+  background-color: #EADEDE;
+  color: #000;
+  transition: 0.15s all ease;
+}
+
+.form-group {
+  position: relative;
+}
+
+.form-group input::placeholder {
+  color: transparent;
+}
+
+.form-group .form-label {
+  position: absolute;
+  top: 35px;
+  left: 60px;
+  padding: 0 10px;
+  font-size: 1.1rem;
+  color: #999;
+  pointer-events: none;
+  transition: 0.15s all ease;
+}
+
+.form-group input:focus {
+  border-color: #777;
+}
+
+.form-group input:focus + .form-label,
+.form-group input:not(:placeholder-shown) + .form-label {
+  color: #777;
+  font-size: 1rem;
+  transform: translate(5px, -28px);
+  background-color: #EADEDE;
+
+}
+
+.intro {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.middle {
+
+  margin: 35px auto 0;
+}
+.cta {
+  background-color: #A2416B;
+  width: 95%;
+  height: 35px;
+  border-radius: 17px;
+  text-align: center;
+  margin: 30px auto 20px;
+  padding-top: 12px;
+  box-shadow: -6px -6px 10px #fff, 6px 6px 10px #888;
+}
+
+.cta:hover {
+  background-color: #7D1935;
+}
+
+h4:hover {
+  text-decoration: underline;
+}
+
+.cta a {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
